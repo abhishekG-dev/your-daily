@@ -1,0 +1,128 @@
+.login_page{
+    background:transparent linear-gradient(180deg, #FFECD7 0%, #FFC9C9 100%)
+    /* background:transparent linear-gradient(180deg, #FFECD7 0%, #fdaeae 100%) */
+     0% 0% no-repeat
+     padding-box ;
+    height: 100%;
+    /* display: flex;
+    align-items: center ;
+    justify-content: center; */
+}
+
+.main_container{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    /* border: 1px solid grey; */
+    height: 70%;
+    width: 100%;
+}
+
+.login_main_container{
+    width: 90%;
+    height: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+.brand>img{
+   position: relative;
+   left: 100px;
+   top: 20px;
+}
+
+
+.login_img{
+    /* border: 1px solid green; */
+    width: 60%;
+    height: 90% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_img>img{
+   width: 90%;
+   background-origin: border-box;
+   opacity: 0.9;
+}
+
+.login_container{
+    width: 400px;
+    height: 480px;
+    /* border: 1px solid red; */
+    background: white;
+    border-radius: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 12px 9px 27px #7777774D;
+}
+
+form{
+display: flex;
+flex-direction: column;
+width: 90%;
+height: 100%;
+justify-content: space-evenly;
+}
+
+.field{
+   border-radius: 5px;
+   border: 1px solid black  ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 50px;
+
+}
+
+.field>input[type='text']{
+    width:100% ;
+    height: 35px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #777A7D;
+    opacity: 0.5;
+}
+.field>input[type='password']{
+    width:100% ;
+    height: 35px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #777A7D;
+    opacity: 0.5;
+}
+.field>img{
+    width: 20px;
+}
+
+.btn{
+    height: 50px;
+    background: transparent linear-gradient(180deg, #f88a12 0%, #CD2D05 100%) 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+}
+
+.forget{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    color:  #F88A12;;
+}
+
+.d1>p{
+    color: #1D2226;
+    opacity: 0.6;
+    font-size: 18px;
+    font-weight: 300;
+}
