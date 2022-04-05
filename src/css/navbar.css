@@ -1,0 +1,32 @@
+nav{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F88A12;
+    height: 56px;
+}
+
+.nav_brand{
+    display: flex;
+    border: 1px solid red;
+    height: 100%;
+    margin-left: 32px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+   
+}
+.nav_brand>img{
+    width: 30%;
+}
+
+.nav_brand>h1{
+    color: white;
+    font-size: 24px;
+}
+
+.icon_container{
+    border: 1px solid red;
+ margin-right: 144px    ;
+}

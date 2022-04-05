@@ -111,13 +111,15 @@ justify-content: space-evenly;
     border-radius: 5px;
     color: white;
     font-size: 17px;
+    cursor: pointer;
 }
 
 .forget{
     /* border: 1px solid red; */
     display: flex;
     justify-content: flex-end;
-    color:  #F88A12;;
+    color:  #F88A12;
+    cursor: pointer;
 }
 
 .d1>p{
@@ -125,4 +127,4 @@ justify-content: space-evenly;
     opacity: 0.6;
     font-size: 18px;
     font-weight: 300;
-}
+}   
