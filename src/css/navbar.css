@@ -9,7 +9,7 @@ nav{
 
 .nav_brand{
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 100%;
     margin-left: 32px;
     justify-content: space-evenly;
@@ -27,6 +27,6 @@ nav{
 }
 
 .icon_container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
  margin-right: 144px    ;
 }
