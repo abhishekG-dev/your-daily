@@ -1,0 +1,31 @@
+.btn_section {
+    /* border: 1px solid blue; */
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+.back {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 22px;
+    outline: none;
+  }
+  
+  .add_new {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    color: #f88a12;
+    outline: none;
+    display: flex;
+  }
+  
+  .dis_hide{
+      display: none;
+  }
