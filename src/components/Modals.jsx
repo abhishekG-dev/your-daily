@@ -1,5 +1,7 @@
 import React from "react";
 import "../css/modal.css";
+
+
 export function Modals({ setModalShow }) {
   return (
     <>
@@ -30,10 +32,12 @@ export function Modals({ setModalShow }) {
               <input type="text" id="regdata" />
             </div>
           </div>
-          <span></span>
+          <span className="divider"></span>
           <button className="cart_new_add_btn">Add</button>
         </form>
       </section>
     </>
   );
 }
+
+     

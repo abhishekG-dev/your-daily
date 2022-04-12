@@ -1,5 +1,5 @@
 .login_page{
-    background:transparent linear-gradient(180deg, #FFECD7 0%, #FFC9C9 100%)
+    background:transparent linear-gradient(180deg, #FFECD7 0%, #e2b1b1 100%)
     /* background:transparent linear-gradient(180deg, #FFECD7 0%, #fdaeae 100%) */
      0% 0% no-repeat
      padding-box ;
@@ -78,30 +78,36 @@ justify-content: space-evenly;
    display: flex;
    justify-content: center;
    align-items: center;
-   height: 50px;
+   height: 52px;
 
 }
 
 .field>input[type='text']{
     width:100% ;
-    height: 35px;
+    height: 30px;
     border: none;
     outline: none;
     font-size: 16px;
     color: #777A7D;
     opacity: 0.5;
+    padding: 10px;
+    /* border: 1px solid green; */
 }
 .field>input[type='password']{
     width:100% ;
-    height: 35px;
+    height: 30px;
     border: none;
     outline: none;
     font-size: 16px;
     color: #777A7D;
     opacity: 0.5;
+    padding: 10px;  
 }
 .field>img{
     width: 20px;
+    /* border: 1px solid red; */
+    cursor: pointer;
+    margin-right: 3px;
 }
 
 .btn{

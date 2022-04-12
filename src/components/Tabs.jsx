@@ -1,57 +1,44 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
+import { NavLink } from "react-router-dom";
 import "../css/tabs.css";
-import {
-  cartPersonDetail,
-  deliveryBoyDetails,
-  userDetails,
-} from "../data/details";
+// import {
+//   cartPersonDetail,
+//   deliveryBoyDetails,
+//   userDetails,
+// } from "../data/details";
 
 function Tabs({ setData, tabText, setTab }) {
-  const [active, setActive] = useState("");
+
 
   const { tab1, tab2, tab3 } = tabText;
 
-  useEffect(() => {
-    setData(cartPersonDetail);
-    setActive("one");
-    setTab("tab1");
-  }, [setData,setTab]);
+ 
 
   return (
     <>
       <div className="tabs">
-        <div
-          className={
-            active === "one" ? "tab cart_person active" : "tab cart_person"
+        <NavLink
+          className={({ isActive }) =>
+            isActive ? "tab cart_person active" : "tab cart_person"
           }
-          onClick={() => {
-            setData(cartPersonDetail);
-            setActive("one");
-            setTab("tab1");
-          }}
+          to={tab1 === 'Cart Person Details' ? 'cart-person' : 'denied-order' }
         >
           {tab1}
-        </div>
-        <div
-          className={active === "two" ? "tab active" : "tab"}
-          onClick={() => {
-            setData(deliveryBoyDetails);
-            setActive("two");
-            setTab('tab2')
-          }}
+        </NavLink>
+        <NavLink
+          className={({ isActive }) => (isActive ? "tab active" : "tab")}
+          to={ tab2 === 'Delivery Boy Details' ? "delivery-boy" : 'disputed-order'}
         >
           {tab2}
-        </div>
-        <div
-          className={active === "three" ? "tab user active" : "tab user"}
-          onClick={() => {
-            setData(userDetails);
-            setActive("three");
-            setTab('tab3')
-          }}
+        </NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            isActive ? "tab user active" : "tab user"
+          }
+          to={ tab3 === 'User Details'? "user" : 'scheduled-order'}
         >
           {tab3}
-        </div>
+        </NavLink>
       </div>
     </>
   );
