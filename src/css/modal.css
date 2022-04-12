@@ -8,9 +8,9 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 0;
-  left: 0;
-  
+  top: 19%;
+  left: 50%;
+  transform: translate(-50%,0%);  
 }
 
 /* .show{
@@ -26,6 +26,7 @@
   position: absolute;
   right: 10px;
   top: 10px;
+  cursor: pointer;
   /* border: 1px solid green;  */
 }
 
@@ -104,7 +105,9 @@
     font-size: 17px;
 }
 
-span {
+.divider{
   width: 95%;
   border: 1px solid rgb(243, 196, 110);
 }
+
+

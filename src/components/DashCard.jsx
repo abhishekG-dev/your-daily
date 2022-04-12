@@ -1,7 +1,8 @@
 import React from 'react'
 import '../css/dashcard.css'
+import {Link} from 'react-router-dom'
 
-function DashCard({title,count,view,cls,clsh}) {
+function DashCard({title,count,view,cls,clsh,path}) {
   return (
     <>
         <div className="dashcard">
@@ -11,7 +12,7 @@ function DashCard({title,count,view,cls,clsh}) {
             <div className= {'numb ' + (cls? cls : '')}>
                     <h1 className={'count '+ (clsh? clsh : '')} >{count}</h1>
             </div>
-              { view ? <button className='vd_btn' >View Details</button>
+              { view ? <Link to={path} className='vd_btn' >View Details</Link>
               : ''}
         </div>
     </>
