@@ -1,0 +1,29 @@
+table{
+    width: 100%;
+    border: 1px solid #707070;
+    border-collapse: collapse;
+    /* height: 500px; */
+    margin-top: 30px;
+}
+/* tr{
+    border: 1px solid red;
+} */
+th{
+    border: 2px solid #707070;
+    height: 80px;
+    background: #FFF0DF;
+    color: #777777;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+   
+}
+
+
+td{
+    border: 2px solid #707070;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
